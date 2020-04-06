@@ -1,0 +1,58 @@
+.main
+{
+    border: 1px solid #eee;
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    padding-left: 120px;
+    padding-top: 100px;
+    background: #eee;
+}
+
+
+
+
+.main .textarea1,.textarea2
+{
+    
+    border: 3px solid #cccccc;
+    border-style: double;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px;
+}
+
+.main .textarea1:hover,.textarea2:hover
+{
+    background: rgb(250, 237, 237);
+}
+
+.main .textarea2
+{
+    margin-top: 50px;
+}
+
+.main input[type='submit']
+{
+    width: 150px;
+    height: 40px;
+    background: rgb(125, 241, 125);
+    color: #000;
+    font-weight: bolder;
+    border-radius: 15px;
+    transition: 2s;
+}
+
+.main input[type='submit']:hover
+{
+    background: rgb(4, 245, 4);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 2s;
+}
+
+.erreurs
+{
+    color: red;
+    
+}
